@@ -10,6 +10,7 @@ function Navbar() {
       <Link to='/'>
         <p className='mr-[80vw] cursor-pointer text-3xl'>EshOp</p>
         <p>this is a test p</p>
+        <p>this is change for 2</p>
       </Link>
       {cartCount > 0 && cartCount}
       <Link to='/checkout'>
