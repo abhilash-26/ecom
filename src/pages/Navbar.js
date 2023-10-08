@@ -9,6 +9,7 @@ function Navbar() {
     <div className='bg-gray-400 h-[8vh] flex justify-end pr-10 items-center'>
       <Link to='/'>
         <p className='mr-[80vw] cursor-pointer text-3xl'>EshOp</p>
+        <p>this is change for 2</p>
       </Link>
       {cartCount > 0 && cartCount}
       <Link to='/checkout'>
