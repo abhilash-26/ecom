@@ -23,7 +23,7 @@ function Cart() {
 	return (
 		<div className='flex justify-between'>
 			<div>
-				{items.length == 0 && <p className='text-4xl w-[80vw] h-[80vh]'>Your basket is empty!!!!!</p>}
+				{items.length == 0 && <p className='text-4xl w-[80vw] h-[80vh]'>Your basket is empty!!</p>}
 				{items.map((item) => (
 					<div className='flex items-center m-1 border-b-2'>
 						<div>
